@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+#login {
+  align-content: center;
+  align-items: center;
+  margin: 180px 560px;
+  padding: 50px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form h1.h1login {
+  margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+}
+
+form input[type="text"] {
+  padding: 10px; /* Thêm khoảng cách bên trong input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  margin-top: 20px; /* Khoảng cách trên nút submit */
+  padding: 10px 20px; /* Thêm khoảng cách bên trong nút submit */
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
