@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Luxury Hotel</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="content-box1">
+      <header class="header" id="home">
+        <nav>
+          <div class="nav_bar">
+            <!-- logo -->
+            <div class="logo">
+              <a href="#"><img src="./assets/img/logo.svg" alt="logo" /></a>
+              <b class="hotels">HOTELS</b>
+              <b class="luxury">LUXURY</b>
+            </div>
+            <!-- khoảng trắng -->
+            <div class="nav_menu_btn" id="menu-btn">
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+          <!-- link -->
+          <ul class="nav_links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Facilities">Facilities</a></li>
+            <li><a href="#Rooms">Rooms</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="btn nav_btn">Login</button>
+        </nav>
+        <!-- header content -->
+        <div class="section_container header_container">
+          <h1 class="fist">WELCOME TO</h1>
+          <br />
+          <h1 class="second">LUXURY</h1>
+          <br />
+          <h1 class="third">HOTELS</h1>
+          <br />
+          <p>
+            Book your stay and enjoy Luxury <br />
+            redefined at the most affordable rates.
+          </p>
+        </div>
+      </header>
+      <!-- finding -->
+      <section class="section_container booking_container">
+        <form action="/" class="booking_form">
+          <div class="input_group">
+            <span><i class="ri-calendar-2-fill"></i></span>
+            <div>
+              <label for="check-in">CHECK-IN</label>
+              <input type="text" placeholder="Check In" />
+            </div>
+          </div>
+          <div class="input_group">
+            <span><i class="ri-calendar-2-fill"></i></span>
+            <div>
+              <label for="check-out">CHECK-OUT</label>
+              <input type="text" placeholder="Check Out" />
+            </div>
+          </div>
+          <div class="input_group">
+            <span><i class="ri-user-fill"></i></span>
+            <div>
+              <label for="guest">GUEST</label>
+              <input type="text" placeholder="Guest" />
+            </div>
+          </div>
+          <div class="input_group input_btn">
+            <button class="btn">CHECH OUT</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <div class="content-box2">
+      <!-- title -->
+      <section class="title-home">
+        <p class="title">
+          All our room types are including complementary breakfast
+        </p>
+      </section>
+
+      <section class="section_container about_container" id="about">
+        <div class="about_content">
+          <div class="section_line">
+            <h2 class="section_header">Luxury redefined</h2>
+            <p class="section_description">
+              Our rooms are designed to transport <br />
+              you into an environment made for leisure. <br />
+              Take your mind off the day-to-day of home <br />
+              life and find a private paradise for yourself.
+            </p>
+            <div class="about_btn">
+              <button class="btn">EXPLORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="about_image">
+          <img
+            class="picture-home"
+            src="./assets/img/room-home.jpg"
+            alt="room-home"
+          />
+        </div>
+      </section>
+
+      <section class="section_container about_container" id="about">
+        <div class="about_content">
+          <div class="section_line">
+            <h2 class="section_header">Leave your worries</h2>
+            <p class="section_description">
+              We love life at the beach. Being close <br />
+              to the ocean with access to endless sandy <br />
+              beach ensures a relaxed state of mind. It <br />
+              seems like time stands still watching the <br />
+              ocean.
+            </p>
+            <div class="about_btn">
+              <button class="btn">EXPLORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="about_image">
+          <img class="picture-beach" src="./assets/img/beach.jpg" alt="beach" />
+        </div>
+      </section>
+    </div>
+
+    <!-- title -->
+    <section class="title-home">
+      <p class="title">OUR LIVING ROOM</p>
+    </section>
+
+    <section class="section_container room_container">
+      <h2 class="section_header">The Most Memorable Rest Time Starts Here</h2>
+      <div class="room_grid">
+        <div class="room_card">
+          <div class="room_card_image">
+            <img src="./assets/img/room-living-home1.jpg" alt="room" />
+            <div class="room_card_icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room_card_details">
+            <h4>Deluxe Ocean View</h4>
+            <p>
+              Bask in luxury with breathtaking ocean views from your private
+              suite.
+            </p>
+            <h5>Starting from <span>$299/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room_card">
+          <div class="room_card_image">
+            <img src="./assets/img/room-living-home2.jpg" alt="room" />
+            <div class="room_card_icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room_card_details">
+            <h4>Executive Cityscape Room</h4>
+            <p>
+              Experience urban elegance and modern comfort in the heart of the
+              city.
+            </p>
+            <h5>Starting from <span>$199/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room_card">
+          <div class="room_card_image">
+            <img src="./assets/img/room-living-home3.jpg" alt="room" />
+            <div class="room_card_icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room_card_details">
+            <h4>Family Garden Retreat</h4>
+            <p>
+              Spacious and inviting, perfect for creating cherished memories
+              with loved ones.
+            </p>
+            <h5>Starting from <span>$249/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section_container service_container">
+        <div class="service_content">
+          <p class="section_subheader">SERVICES</p>
+          <h2 class="section_header">The Best</h2>
+          <ul class="service_list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              High Class Security
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              24 Hours Room Service
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Conference Room
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Tourist Guide Support
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_container banner_container">
+      <div class="banner_content">
+        <div class="banner_card">
+          <h4 class="counter">5★</h4>
+          <p>Rating</p>
+        </div>
+        <div class="banner_card">
+          <h4 class="counter add-counter" data-start="500">500</h4>
+          <p>Bookings Completed</p>
+        </div>
+        <div class="banner_card">
+          <h4 class="counter add-counter" data-start="600">600</h4>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore" id="explore">
+      <p class="section_subheader">EXPLORE</p>
+      <h2 class="section_header">What's New Today</h2>
+      <div class="explore_bg">
+        <div class="explore_content">
+          <p class="section_description">10th MAR 2023</p>
+          <h4>A New Menu Is Available In Our Hotel</h4>
+          <ul style="list-style-type: disc">
+            <li>Pan-Seared Foie Gras</li>
+            <li>Grand Marnier Soufflé</li>
+            <li>Roasted Patagonian Black Cod</li>
+            <li>Valrhona Dark Chocolate Cake</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_container end_home_container">
+      <div class="end_home_content">
+        <h2 class="section_header">Testimonials</h2>
+        <p class="section_description">
+          "Calm, Serene, Retro – What a way to relax and enjoy"
+        </p>
+        <div class="button-container">
+          <button class="btn back-button">
+            <i class="arrow left"></i>
+          </button>
+          &emsp;
+          <button class="btn forward-button">
+            <i class="arrow right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="footer-logo">
+        <h2>LUXURY</h2>
+        <h3>HOTELS</h3>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>&nbsp; 497 Evergreen Rd.
+          Roseville, CA 95673
+        </p>
+        <p><i class="fa-solid fa-phone"></i>&nbsp; +44 345 678 903</p>
+        <p>
+          <a href="mailto:luxury_hotels@gmail.com">
+            <i class="fa-duotone fa-solid fa-envelope"></i>
+            &nbsp;luxury_hotels@gmail.com
+          </a>
+        </p>
+      </div>
+      <div class="footer-contact">
+        <p><a href="#">About Us</a></p>
+        <p><a href="#">Contact</a></p>
+        <p><a href="#">Terms & Conditions</a></p>
+      </div>
+      <div class="footer-social">
+        <p>
+          <a href="#"
+            ><img src="./assets/img/facebook.png" alt="facebook" /> Facebook</a
+          >
+        </p>
+        <p>
+          <a href="#"
+            ><img src="./assets/img/youtube.png" alt="twitter" /> Youtube</a
+          >
+        </p>
+        <p>
+          <a href="#"
+            ><img src="./assets/img/instagram.png" alt="instagram" />
+            Instagram</a
+          >
+        </p>
+      </div>
+      <div class="footer-subscribe">
+        <label for="email">Subscribe to our newsletter</label>
+        <form>
+          <input type="email" id="email" placeholder="Email Address" required />
+          <input type="submit" value="OK" />
+        </form>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
