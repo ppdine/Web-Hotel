@@ -1,0 +1,113 @@
+.title-rooms-p {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  color: #14274a;
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: #14274a;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1rem;
+  margin-bottom: 35rem;
+}
+.title-rooms-p h2 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  margin-bottom: 10px; /* Đặt khoảng cách dưới */
+  font-weight: bold; /* Đặt độ đậm của chữ */
+  text-transform: uppercase; /* Chuyển chữ thành chữ hoa */
+  line-height: 1.5; /* Đặt khoảng cách giữa các dòng */
+}
+.title-rooms-p p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.section__container-p {
+  display: grid;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 2.35rem 1rem;
+}
+.choose-room-p {
+  color: #14274a;
+  -webkit-text-stroke-width: 0.30000001192092896;
+  -webkit-text-stroke-color: #14274a;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.choose-room-p {
+  margin-top: 0px;
+  padding: 1.3rem;
+  background-color: var(--white);
+  border-radius: 10px;
+  transform: translateY(-50%);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.room-p {
+  display: flex;
+  margin-bottom: 20px;
+}
+.room-p {
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  display: flexbox;
+  gap: 1rem;
+  align-items: left;
+  justify-content: left;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.room__username-p {
+  font-size: 23px;
+  font-weight: bold;
+  font-style: normal;
+}
+.room__star-p {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+.btn-p {
+  color: var(--white);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: var(--white);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 14px;
+}
+.btn-p:hover {
+  background-color: var(--primary-color-dark);
+}
+.explore__content .btn-p {
+  color: var(--primary-color);
+  background-color: var(--white);
+  border: 1px solid var(--primary-color);
+}
+.explore__content .btn-p:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+@media (max-width: 1920px) {
+  .input__group .btn-p {
+    margin-right: 9rem;
+  }
+}

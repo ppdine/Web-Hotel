@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.4.1/flowbite.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.min.css"
+      integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/stylecontact.css" />
+    <title>Hotel</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <div class="text">
+              <b class="luxury">LUXURY</b>
+              <b class="hotel">HOTEL</b>
+            </div>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a class="link" href="#home">Home</a></li>
+          <li><a class="link" href="#Facilities">Facilities</a></li>
+          <li><a class="link" href="#Rooms">Rooms</a></li>
+          <li><a class="link" href="#contact">Contact</a></li>
+          <li>
+            <a href="#" class="btn">Login</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="section__container header__container" id="home">
+        <h1 class="contact--us">CONTACT-US</h1>
+      </div>
+    </header>
+
+    <main>
+      <!--phong code ở đây  -->
+      <div class="container--info">
+        <section class="box--content">
+          <header class="content--info">
+            <h2>Support</h2>
+          </header>
+          <div class="contact--report">
+            <span class="admin--info">Lý Hồ Tuấn An - 2251120266: </span><br />
+            <span class="admin--contact">
+              0941400924 - 2251120266@ut.edu.vn
+            </span>
+            <hr />
+            <span class="admin--info">Nguyễn Huy Hảo - 2251120287: </span><br />
+            <span class="admin--contact">
+              0387301927 - 2251120287@ut.edu.vn
+            </span>
+            <hr />
+            <span class="admin--info">Lê Hoàng Phong - 2251120310: </span><br />
+            <span class="admin--contact">
+              0379727659 - 2251120310@ut.edu.vn
+            </span>
+            <hr />
+          </div>
+        </section>
+
+        <section class="box--content">
+          <header class="content--info">
+            <h2>Send us a massage</h2>
+          </header>
+          <form class="contact--report">
+            <label>First Name</label>
+            <br />
+            <input
+              type="text"
+              name="first--name"
+              placeholder="Input First Name"
+            /><br />
+            <label>Last Name</label>
+            <br />
+            <input
+              type="text"
+              name="last--name"
+              placeholder="Input Last Name"
+            /><br />
+            <label>Your Email</label>
+            <br />
+            <input
+              type="text"
+              name="your--email"
+              placeholder="Input Work Email"
+            /><br />
+            <label>Province</label>
+            <br />
+            <select>
+              <option selected>Choose a Location</option>
+              <option value="An Giang">An Giang</option>
+              <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
+              <option value="Bắc Giang">Bắc Giang</option>
+              <option value="Bắc Kạn">Bắc Kạn</option>
+              <option value="Bạc Liêu">Bạc Liêu</option>
+              <option value="Bắc Ninh">Bắc Ninh</option>
+              <option value="Bến Tre">Bến Tre</option>
+              <option value="Bình Định">Bình Định</option>
+              <option value="Bình Dương">Bình Dương</option>
+              <option value="Bình Phước">Bình Phước</option>
+              <option value="Bình Thuận">Bình Thuận</option>
+              <option value="Bình Thuận">Bình Thuận</option>
+              <option value="Cà Mau">Cà Mau</option>
+              <option value="Cao Bằng">Cao Bằng</option>
+              <option value="Đắk Lắk">Đắk Lắk</option>
+              <option value="Đắk Nông">Đắk Nông</option>
+              <option value="Điện Biên">Điện Biên</option>
+              <option value="Đồng Nai">Đồng Nai</option>
+              <option value="Đồng Tháp">Đồng Tháp</option>
+              <option value="Đồng Tháp">Đồng Tháp</option>
+              <option value="Gia Lai">Gia Lai</option>
+              <option value="Hà Giang">Hà Giang</option>
+              <option value="Hà Nam">Hà Nam</option>
+              <option value="Hà Tĩnh">Hà Tĩnh</option>
+              <option value="Hải Dương">Hải Dương</option>
+              <option value="Hậu Giang">Hậu Giang</option>
+              <option value="Hòa Bình">Hòa Bình</option>
+              <option value="Hưng Yên">Hưng Yên</option>
+              <option value="Khánh Hòa">Khánh Hòa</option>
+              <option value="Kiên Giang">Kiên Giang</option>
+              <option value="Kon Tum">Kon Tum</option>
+              <option value="Lai Châu">Lai Châu</option>
+              <option value="Lâm Đồng">Lâm Đồng</option>
+              <option value="Lạng Sơn">Lạng Sơn</option>
+              <option value="Lào Cai">Lào Cai</option>
+              <option value="Long An">Long An</option>
+              <option value="Nam Định">Nam Định</option>
+              <option value="Nghệ An">Nghệ An</option>
+              <option value="Ninh Bình">Ninh Bình</option>
+              <option value="Ninh Thuận">Ninh Thuận</option>
+              <option value="Phú Thọ">Phú Thọ</option>
+              <option value="Quảng Bình">Quảng Bình</option>
+              <option value="Quảng Bình">Quảng Bình</option>
+              <option value="Quảng Ngãi">Quảng Ngãi</option>
+              <option value="Quảng Ninh">Quảng Ninh</option>
+              <option value="Quảng Trị">Quảng Trị</option>
+              <option value="Sóc Trăng">Sóc Trăng</option>
+              <option value="Sơn La">Sơn La</option>
+              <option value="Tây Ninh">Tây Ninh</option>
+              <option value="Thái Bình">Thái Bình</option>
+              <option value="Thái Nguyên">Thái Nguyên</option>
+              <option value="Thanh Hóa">Thanh Hóa</option>
+              <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+              <option value="Tiền Giang">Tiền Giang</option>
+              <option value="Trà Vinh">Trà Vinh</option>
+              <option value="Tuyên Quang">Tuyên Quang</option>
+              <option value="Vĩnh Long">Vĩnh Long</option>
+              <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+              <option value="Yên Bái">Yên Bái</option>
+              <option value="Phú Yên">Phú Yên</option>
+              <option value="Tp.Cần Thơ">Tp.Cần Thơ</option>
+              <option value="Tp.Đà Nẵng">Tp.Đà Nẵng</option>
+              <option value="Tp.Hải Phòng">Tp.Hải Phòng</option>
+              <option value="Tp.Hà Nội">Tp.Hà Nội</option>
+              <option value="TP  HCM">TP HCM</option></select
+            ><br />
+            <label>Your Phone Number</label>
+            <br />
+            <input
+              type="text"
+              name="phone--number"
+              placeholder="Input Your Phone Number"
+            /><br />
+            <label>How can we help you?</label><br />
+            <textarea
+              name="#"
+              id="#"
+              placeholder="What you need support"
+            ></textarea>
+          </form>
+          <a href="#"
+            ><input type="submit" class="btn" name="submit" value="Send"
+          /></a>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <div class="text">
+            <h2>LUXURY</h2>
+            <h3>HOTELS</h3>
+          </div>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> 497 Evergreen Rd.
+            Roseville, CA 95673
+          </p>
+          <p><i class="fa-solid fa-phone"></i> +44 345 678 903</p>
+          <p>
+            <a href="mailto:luxury_hotels@gmail.com">
+              <i class="fa-solid fa-envelope"></i> luxury_hotels@gmail.com
+            </a>
+          </p>
+        </div>
+        <div class="footer-contact">
+          <p><a href="#">About Us</a></p>
+          <p><a href="#">Contact</a></p>
+          <p><a href="#">Terms & Conditions</a></p>
+        </div>
+        <div class="footer-social">
+          <p>
+            <a href="#"
+              ><img src="./assets/img/facebook.png" alt="facebook" />
+              Facebook</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><img src="./assets/img/youtube.png" alt="youtube" /> Youtube</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><img src="./assets/img/instagram.png" alt="instagram" />
+              Instagram</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><img src="./assets/img/twitter.jpg" alt="twitter" /> Twitter</a
+            >
+          </p>
+        </div>
+        <div class="footer-subscribe">
+          <label for="email">Subscribe to our newsletter</label>
+          <form>
+            <input
+              type="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+            <input type="submit" value="OK" />
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Group 10. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.4.1/flowbite.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"
+      integrity="sha512-RBWI5Qf647bcVhqbEnRoL4KuUT+Liz+oG5jtF+HP05Oa5088M9G0GxG0uoHR9cyq35VbjahcI+Hd1xwY8E1/Kg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
